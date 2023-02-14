@@ -5,7 +5,7 @@
     - [ ] Create a custom ViewModifier (and accompanying View extension) that makes a view have a large, blue font suitable for prominent titles in a view.
 
 - [ ] [Part 1](https://www.hackingwithswift.com/100/swiftui/23)
-    - [ ] 1. Views and modifiers: Introduction
+    - [x] 1. Views and modifiers: Introduction
     - [ ] 2. Why does SwiftUI use structs for views?
     - [ ] 3. What is behind the main SwiftUI view?
     - [ ] 4. Why modifier order matters
