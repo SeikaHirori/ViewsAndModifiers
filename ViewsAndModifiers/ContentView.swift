@@ -8,10 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
-
-    // However, Blue is additive; It doesn't doens't function like CSS/SASS where the one at the lowest level takes priority
+    
+    let helloWorld:Text = Text("Hello World :333")
+    let motto1:Text = Text("Draco dromiens")
+    let motto2:Text = Text("nunquam titillandus")
+    
+    
     var body: some View {
-        Text("Hello World :333")
+        VStack {
+            helloWorld
+            motto1
+            motto2
+        }
     }
 }
 
