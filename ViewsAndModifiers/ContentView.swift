@@ -22,6 +22,12 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
+extension View {
+    func titleStyle() -> some View {
+        modifier(Title())
+    }
+}
+
 struct Title: ViewModifier {
     func body(content: Content) -> some View {
         content
