@@ -12,10 +12,8 @@ struct ContentView: View {
     
     var body: some View {
         GridStack(rows: 4, columns: 4) { row, col in
-            HStack {
-                Image(systemName: "\(row * 4 + col).circle")
-                Text("R\(row) C\(col)")
-            }
+            Image(systemName: "\(row * 4 + col).circle")
+            Text("R\(row) C\(col)")
         }
     }
 }
@@ -29,7 +27,7 @@ struct ContentView_Previews: PreviewProvider {
 struct GridStack<Content:View>: View {
     let rows:Int
     let columns:Int
-    let content: (Int, Int) -> Content
+    @ViewBuilder let content: (Int, Int) -> Content
     
     var body: some View {
         VStack {
