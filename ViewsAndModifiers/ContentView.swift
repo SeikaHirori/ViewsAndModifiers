@@ -8,15 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    var motto1: some View {
-        Text("Draco dromiens")
-    }
-    
+
     
     var body: some View {
         VStack {
-           motto1
+           spells
+        }
+    }
+    
+    var spells1: some View {
+        VStack {
+            Text("Lumos")
+            Text("Obliviate")
         }
     }
 }
