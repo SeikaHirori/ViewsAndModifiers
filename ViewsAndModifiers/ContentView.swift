@@ -8,29 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-                .padding()
-//                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color.red)
-                .padding()
-                .background(Color.blue)
-                .padding()
-                .background(Color.green)
-                .padding()
-                .background(Color.yellow)
-            Button("A big button") { }
-            
-            // DEMO: The order of modifiers is correct, so vision comes to life
-            .frame(width: 200, height: 200)
-            .background(Color.red)
-
-        }
-        .padding()
+//    // This doesn't work
+//    var body: View {
+//        Text("Hello world :3333")
+//    }
+    
+    // This works 
+    var body: Text {
+        Text("Hello world :3")
     }
 }
 
