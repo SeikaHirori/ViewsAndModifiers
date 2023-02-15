@@ -11,8 +11,8 @@ struct ContentView: View {
     let helloWorld:Text = Text("hello world :333")
     
     var body: some View {
-        VStack {
-            helloMate(text: "hello mate :3")
+        GridStack(rows: 4, columns: 4) { row, col in
+            Text("R\(row) C\(col)")
         }
     }
 }
