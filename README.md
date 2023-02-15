@@ -12,6 +12,7 @@
     - [x] 5. Why does SwiftUI use “some View” for its view type?
     - [x] 6. Conditional modifiers
     - [ ] 7. Environment modifiers
+        - WIP
     - [ ] 8. Views as properties
     - [ ] 9. View composition
     - [ ] 10. Custom modifiers
