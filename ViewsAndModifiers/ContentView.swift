@@ -9,15 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
 
+    // However, Blue is additive; It doesn't doens't function like CSS/SASS where the one at the lowest level takes priority
     var body: some View {
         VStack {
             Text("Alpha")
+                .blur(radius: 10)
             Text("Bravo")
-                .font(.largeTitle)
             Text("Charlie")
             Text("Delta")
         }
-        .font(.title)
+        .blur(radius: 3)
         
     }
 }
