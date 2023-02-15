@@ -20,9 +20,9 @@ struct ContentView: View {
             Button("A big button") {
                 
             }
-            // DEMO, but order of code below results in the red background colour not working as visioned
-            .background(Color.red)
+            // DEMO: The order of modifiers is correct, so vision comes to life
             .frame(width: 200, height: 200)
+            .background(Color.red)
 
         }
         .padding()
