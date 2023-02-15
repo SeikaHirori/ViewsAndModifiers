@@ -11,8 +11,14 @@ struct ContentView: View {
     let helloWorld:Text = Text("hello world :333")
     
     var body: some View {
-        helloWorld
-            .titleStyle()
+        ZStack{
+            Color.blue
+                .frame(width: 300, height: 200)
+                .watermarked(with: "Hacking with Swift")
+            
+            helloWorld
+                .titleStyle()
+        }
     }
 }
 
@@ -26,6 +32,25 @@ extension View {
     func titleStyle() -> some View {
         modifier(Title())
     }
+    
+    func watermarked(with text: String) -> some View {
+        modifier(Watermark(text: text))
+    }
+}
+
+struct Watermark: ViewModifier {
+    var text:String
+    
+    func body(content: Content) -> some View {
+        ZStack(alignment: .bottomTrailing) {
+            content
+            Text(text)
+                .font(.caption)
+                .foregroundColor(.white)
+                .padding(5)
+                .background(.black)
+        }
+    }
 }
 
 struct Title: ViewModifier {
@@ -36,6 +61,5 @@ struct Title: ViewModifier {
             .padding()
             .background(.pink)
             .clipShape(RoundedRectangle(cornerRadius: 10))
-            
     }
 }
