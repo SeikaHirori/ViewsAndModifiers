@@ -14,6 +14,9 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+                .padding()
+                .frame(maxWidth: 200, maxHeight: .infinity)
+                .background(Color.red)
         }
         .padding()
     }
