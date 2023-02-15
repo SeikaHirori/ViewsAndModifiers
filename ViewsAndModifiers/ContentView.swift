@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         helloWorld
-            .modifier(Title())
+            .titleStyle()
     }
 }
 
@@ -34,7 +34,8 @@ struct Title: ViewModifier {
             .font(.largeTitle)
             .foregroundColor(.white)
             .padding()
-            .background(.blue)
+            .background(.pink)
             .clipShape(RoundedRectangle(cornerRadius: 10))
+            
     }
 }
