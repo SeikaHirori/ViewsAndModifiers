@@ -6,7 +6,7 @@
 
 - [ ] [Part 1](https://www.hackingwithswift.com/100/swiftui/23)
     - [x] 1. Views and modifiers: Introduction
-    - [ ] 2. Why does SwiftUI use structs for views?
+    - [x] 2. Why does SwiftUI use structs for views?
     - [ ] 3. What is behind the main SwiftUI view?
     - [ ] 4. Why modifier order matters
     - [ ] 5. Why does SwiftUI use “some View” for its view type?
