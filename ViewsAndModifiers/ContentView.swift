@@ -27,6 +27,9 @@ struct ContentView: View {
                 .foregroundColor(.white)
                 .background(.blue)
                 .clipShape(Capsule())
+                .padding()
+                .background(.pink)
+                .clipShape(Capsule())
         }
     }
 }
