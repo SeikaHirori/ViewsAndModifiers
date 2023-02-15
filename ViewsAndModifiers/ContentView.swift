@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-           spells_2
+           spells_3
         }
     }
     
@@ -30,6 +30,12 @@ struct ContentView: View {
             Text("Lumos")
             Text("Obliviate")
         }
+    }
+    
+    @ViewBuilder var spells_3: some View {
+        Text("spells 3 - @ViewBuilder edition")
+        Text("Lumos")
+        Text("Obliviate")
     }
 }
 
