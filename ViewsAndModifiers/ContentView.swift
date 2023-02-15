@@ -12,16 +12,17 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-           spells
+           spells_1
         }
     }
     
-    var spells1: some View {
+    var spells_1: some View {
         VStack {
             Text("Lumos")
             Text("Obliviate")
         }
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
