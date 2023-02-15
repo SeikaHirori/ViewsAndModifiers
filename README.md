@@ -10,7 +10,7 @@
     - [x] 3. What is behind the main SwiftUI view?
     - [x] 4. Why modifier order matters
     - [x] 5. Why does SwiftUI use “some View” for its view type?
-    - [ ] 6. Conditional modifiers
+    - [x] 6. Conditional modifiers
     - [ ] 7. Environment modifiers
     - [ ] 8. Views as properties
     - [ ] 9. View composition
