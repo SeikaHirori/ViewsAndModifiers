@@ -13,8 +13,8 @@
     - [x] 6. Conditional modifiers
     - [x] 7. Environment modifiers
     - [x] 8. Views as properties
-        - WIP
     - [ ] 9. View composition
+        - WIP
     - [ ] 10. Custom modifiers
 - [ ] Bonus
     - [ ] Custom containers

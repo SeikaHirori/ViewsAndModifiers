@@ -8,35 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
-
+    let helloWorld:Text = Text("hello world :333")
     
     var body: some View {
         VStack {
-           spells_3
+           helloWorld
         }
     }
     
-    var spells_1: some View {
-        VStack {
-            Text("spells 1 - VStack edition :3")
-            Text("Lumos")
-            Text("Obliviate")
-        }
-    }
-    
-    var spells_2: some View {
-        Group {
-            Text("spells 2 - Group edition")
-            Text("Lumos")
-            Text("Obliviate")
-        }
-    }
-    
-    @ViewBuilder var spells_3: some View {
-        Text("spells 3 - @ViewBuilder edition")
-        Text("Lumos")
-        Text("Obliviate")
-    }
 }
 
 struct ContentView_Previews: PreviewProvider {
