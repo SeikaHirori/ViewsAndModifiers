@@ -23,6 +23,16 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
+struct GridStack<Content:View>: View {
+    let rows:Int
+    let columns:Int
+    let content: (Int, Int) -> Content
+    
+    var body: some View {
+        // coming soon
+    }
+}
+
 struct helloMate: View {
     var text: String
     
