@@ -13,7 +13,9 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 10) {
             CapsuleText(text:"First")
+                .foregroundColor(.green)
             CapsuleText(text: "Second")
+                .foregroundColor(.purple)
         }
     }
     
@@ -24,7 +26,6 @@ struct ContentView: View {
             Text(text)
                 .font(.largeTitle)
                 .padding()
-                .foregroundColor(.white)
                 .background(.blue)
                 .clipShape(Capsule())
                 .padding()
