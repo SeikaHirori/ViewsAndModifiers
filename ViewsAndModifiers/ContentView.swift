@@ -11,13 +11,8 @@ struct ContentView: View {
     let helloWorld:Text = Text("hello world :333")
     
     var body: some View {
-        ZStack{
-            Color.blue
-                .frame(width: 300, height: 200)
-                .watermarked(with: "Hacking with Swift")
-            
-            helloWorld
-                .titleStyle()
+        VStack {
+            helloMate(text: "hello mate :3")
         }
     }
 }
@@ -28,38 +23,17 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-extension View {
-    func titleStyle() -> some View {
-        modifier(Title())
-    }
+struct helloMate: View {
+    var text: String
     
-    func watermarked(with text: String) -> some View {
-        modifier(Watermark(text: text))
-    }
-}
-
-struct Watermark: ViewModifier {
-    var text:String
-    
-    func body(content: Content) -> some View {
-        ZStack(alignment: .bottomTrailing) {
-            content
+    var body: some View {
+        VStack(spacing: 10) {
             Text(text)
-                .font(.caption)
+                .font(.largeTitle)
+                .padding()
                 .foregroundColor(.white)
-                .padding(5)
-                .background(.black)
+                .background(.blue)
+                .clipShape(Capsule())
         }
-    }
-}
-
-struct Title: ViewModifier {
-    func body(content: Content) -> some View {
-        content
-            .font(.largeTitle)
-            .foregroundColor(.white)
-            .padding()
-            .background(.pink)
-            .clipShape(RoundedRectangle(cornerRadius: 10))
     }
 }
