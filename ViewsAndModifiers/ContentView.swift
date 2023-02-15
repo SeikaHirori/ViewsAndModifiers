@@ -9,20 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let helloWorld:Text = Text("Hello World :333")
-        .foregroundColor(.green)
-    let motto1:Text = Text("Draco dromiens")
-    let motto2:Text = Text("nunquam titillandus")
+    var motto1: some View {
+        Text("Draco dromiens")
+    }
     
     
     var body: some View {
         VStack {
-            helloWorld
-            motto1
-                .foregroundColor(.red)
-            motto2
-                .foregroundColor(.blue)
-            
+           motto1
         }
     }
 }
