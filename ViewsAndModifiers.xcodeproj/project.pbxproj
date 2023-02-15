@@ -76,6 +76,7 @@
 		3F8BC7BA299C4E270058D471 = {
 			isa = PBXGroup;
 			children = (
+				3F8BC7F0299C4F770058D471 /* README.md */,
 				3F8BC7C5299C4E270058D471 /* ViewsAndModifiers */,
 				3F8BC7D6299C4E2A0058D471 /* ViewsAndModifiersTests */,
 				3F8BC7E0299C4E2A0058D471 /* ViewsAndModifiersUITests */,
@@ -98,7 +99,6 @@
 			children = (
 				3F8BC7C6299C4E270058D471 /* ViewsAndModifiersApp.swift */,
 				3F8BC7C8299C4E270058D471 /* ContentView.swift */,
-				3F8BC7F0299C4F770058D471 /* README.md */,
 				3F8BC7CA299C4E2A0058D471 /* Assets.xcassets */,
 				3F8BC7CC299C4E2A0058D471 /* Preview Content */,
 			);
