@@ -15,11 +15,16 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
                 .padding()
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
+//                .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color.red)
-            Button("A big button") {
-                
-            }
+                .padding()
+                .background(Color.blue)
+                .padding()
+                .background(Color.green)
+                .padding()
+                .background(Color.yellow)
+            Button("A big button") { }
+            
             // DEMO: The order of modifiers is correct, so vision comes to life
             .frame(width: 200, height: 200)
             .background(Color.red)
