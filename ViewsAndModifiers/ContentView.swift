@@ -11,15 +11,7 @@ struct ContentView: View {
 
     // However, Blue is additive; It doesn't doens't function like CSS/SASS where the one at the lowest level takes priority
     var body: some View {
-        VStack {
-            Text("Alpha")
-                .blur(radius: 10)
-            Text("Bravo")
-            Text("Charlie")
-            Text("Delta")
-        }
-        .blur(radius: 3)
-        
+        Text("Hello World :333")
     }
 }
 
