@@ -11,15 +11,25 @@ struct ContentView: View {
     let helloWorld:Text = Text("hello world :333")
     
     var body: some View {
-        GridStack(rows: 4, columns: 4) { row, col in
-            Image(systemName: "\(row * 4 + col).circle")
-            Text("R\(row) C\(col)")
-        }
+        helloWorld
+            .bigBlue()
     }
 }
 
 extension View {
-    
+    // Challenge #3
+    func bigBlue() -> some View {
+        modifier(BigBlue())
+    }
+}
+
+// Challenge #3
+struct BigBlue: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.largeTitle)
+            .foregroundColor(Color.blue)
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
