@@ -6,6 +6,8 @@
     - [x] 2. Go back to project 2 and replace the Image view used for flags with a new FlagImage() view that renders one flag image using the specific set of modifiers we had.
         - Note: I think we're refactoring by moving the code into a ViewModifier?
             - Followed this lecture: https://www.hackingwithswift.com/books/ios-swiftui/custom-containers
+            - Commit with task finished:
+                - https://github.com/SeikaHirori/Guess-the-Flag/commit/df3932e1d60b72f50ffcfe718dee677e549fe0a8
     - [ ] 3. Create a custom ViewModifier (and accompanying View extension) that makes a view have a large, blue font suitable for prominent titles in a view.
         - Note: I think this is for Project 2?
 
