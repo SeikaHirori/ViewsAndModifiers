@@ -4,6 +4,7 @@
         - Commit with completed task: 
             - https://github.com/SeikaHirori/WeSplit/commit/3bbe4d69d29253b53e65bf10bff4943a2f6eba79
     - [ ] 2. Go back to project 2 and replace the Image view used for flags with a new FlagImage() view that renders one flag image using the specific set of modifiers we had.
+        - Note: I think we're refactoring by moving the code into a ViewModifier?
     - [ ] 3. Create a custom ViewModifier (and accompanying View extension) that makes a view have a large, blue font suitable for prominent titles in a view.
         - Note: I think this is for Project 2?
 
