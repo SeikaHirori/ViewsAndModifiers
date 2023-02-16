@@ -8,8 +8,9 @@
             - Followed this lecture: https://www.hackingwithswift.com/books/ios-swiftui/custom-containers
             - Commit with task finished:
                 - https://github.com/SeikaHirori/Guess-the-Flag/commit/df3932e1d60b72f50ffcfe718dee677e549fe0a8
-    - [ ] 3. Create a custom ViewModifier (and accompanying View extension) that makes a view have a large, blue font suitable for prominent titles in a view.
-        - Note: I think this is for Project 2?
+    - [x] 3. Create a custom ViewModifier (and accompanying View extension) that makes a view have a large, blue font suitable for prominent titles in a view.
+        - Commit with task finished:
+            - https://github.com/SeikaHirori/ViewsAndModifiers/commit/c4f51a5e031c3f50fac0d4910d7e4b71c54a6cb1
 
 - [x] [Part 1](https://www.hackingwithswift.com/100/swiftui/23)
     - [x] 1. Views and modifiers: Introduction
